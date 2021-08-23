@@ -1,9 +1,11 @@
 # Software-Engineering-Assignment-Rainbow-java-program
 
 import java.awt.Color;
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
+
 import javax.swing.JPanel;
 
 public class Rainbow extends JPanel {
@@ -31,7 +33,7 @@ public class Rainbow extends JPanel {
             g.setColor(colors[i - 1]);
 
             g.fillArc(centerX - i * radious, centerY - i * radious, i * radious
-                    * 2, i * radious * 2, 0, 180);
+                    * 2,i * radious * 2, 0, 180);
         }
     }
 
