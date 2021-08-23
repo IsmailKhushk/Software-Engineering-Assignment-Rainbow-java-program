@@ -1,9 +1,11 @@
 # Software-Engineering-Assignment-Rainbow-java-program
 
 import java.awt.Color;
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
+
 import javax.swing.JPanel;
 
 public class Rainbow extends JPanel {
