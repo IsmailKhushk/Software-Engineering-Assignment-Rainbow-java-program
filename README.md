@@ -1,12 +1,14 @@
 # Software-Engineering-Assignment-Rainbow-java-program
 
 import java.awt.Color;
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
+
 import javax.swing.JPanel;
 
-public class Rainbow extends JPanel {
+public class Rainbow extends JPanel{
 
     private final static Color VIOLET = new Color(128, 0, 128);
     private final static Color INDIGO = new Color(75, 0, 130);
@@ -14,7 +16,7 @@ public class Rainbow extends JPanel {
     private Color[] colors = { Color.WHITE, VIOLET, INDIGO, Color.BLUE,
             Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED };
 
-    Rainbow() {
+    Rainbow(){
         setBackground(Color.WHITE);
     }
 
@@ -35,7 +37,7 @@ public class Rainbow extends JPanel {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Rainbow rainbow = new Rainbow();
         JFrame app = new JFrame();
         app.add(rainbow);
